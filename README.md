@@ -36,9 +36,9 @@ The Average codeword length for each type of Golomb coding shown above:
 
 ![image](https://user-images.githubusercontent.com/33042545/102416022-ff4c1380-3fad-11eb-9ae9-4a9d0b7e743a.png)
 
-Based on the entropy table above, the minimum number of bits needed to represent the source [0,1,2,…,19] with ρ =0.7 is 2.93 [bits/sample]. According to the table above for the average codeword length, Golomb codeword with m=2 is the best for ρ =0.7 because it is the closest coding scheme to the minimum bits needed to represent the source losslessly.
+Based on the **entropy** table above, the minimum number of bits needed to represent the source [0,1,2,…,19] with **ρ =0.7 is 2.93 [bits/sample]**. According to the table above for the average codeword length, **Golomb codeword with m=2** is the best for ρ =0.7 because it is the closest coding scheme to the minimum bits needed to represent the source losslessly.
 
-Similarly, based on the entropy table above, the minimum number of bits needed to represent the source [0,1,2,…,19] with ρ =0.8 is 3.49 [bits/sample]. According to the table above for the average codeword length, Golomb codeword with m=4 is the best for ρ =0.8 because it is the closest coding scheme to the minimum bits needed to represent the source losslessly.
+Similarly, based on the **entropy** table above, the minimum number of bits needed to represent the source [0,1,2,…,19] with **ρ =0.8 is 3.49 [bits/sample]**. According to the table above for the average codeword length, **Golomb codeword with m=4** is the best for ρ =0.8 because it is the closest coding scheme to the minimum bits needed to represent the source losslessly.
 
-Similarly, based on the entropy table above, the minimum number of bits needed to represent the source [0,1,2,..,19] with ρ =0.9 is 3.75 [bits/sample]. According to the table above for the average codeword length, Golomb codeword with m=2 is the best for ρ =0.9 because it is the closest coding scheme to the minimum bits needed to represent the source losslessly.
+Similarly, based on the **entropy** table above, the minimum number of bits needed to represent the source [0,1,2,..,19] with **ρ =0.9 is 3.75 [bits/sample]**. According to the table above for the average codeword length, **Golomb codeword with m=2** is the best for ρ =0.9 because it is the closest coding scheme to the minimum bits needed to represent the source losslessly.
 
