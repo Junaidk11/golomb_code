@@ -14,14 +14,19 @@ We can find the codeword length of each value of X based on the definition of va
 Note: Used the standard codeword length for the last group, and ignored the fact that we can actually design slightly more efficient codewords for the truncated range of [0, …, 19].
 
 
+# Probability Distribution
+
 Probability for each integer and ⍴ for a geometric distribution: 
 
 ![image](https://user-images.githubusercontent.com/33042545/102414840-0a05a900-3fac-11eb-93f7-f4a75ffffcdb.png)
 
 
+# Entropy 
 Entropy is an indication of the minimumm number of bits needed to losslessly represented any of the integers in the Sample source. Entropy for each probability distribution tabulated above is given below: 
 
 ![image](https://user-images.githubusercontent.com/33042545/102415238-af208180-3fac-11eb-8ab0-2edbfa9484b2.png)
+
+# Results
 
 Golomb Codes for m=2, m=3, m=4 and exponential golomb coding for the non-negative integers:
 
@@ -30,8 +35,6 @@ Golomb Codes for m=2, m=3, m=4 and exponential golomb coding for the non-negativ
 The Average codeword length for each type of Golomb coding shown above: 
 
 ![image](https://user-images.githubusercontent.com/33042545/102416022-ff4c1380-3fad-11eb-9ae9-4a9d0b7e743a.png)
-
-Results
 
 Based on the entropy table above, the minimum number of bits needed to represent the source [0,1,2,…,19] with ρ =0.7 is 2.93 [bits/sample]. According to the table above for the average codeword length, Golomb codeword with m=2 is the best for ρ =0.7 because it is the closest coding scheme to the minimum bits needed to represent the source losslessly.
 
